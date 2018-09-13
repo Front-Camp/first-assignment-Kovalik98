@@ -10,7 +10,10 @@
 * sum(-1, 13); // 12
 */
 const sum = (a, b) => {
-  /* your logic here...*/
+  if (typeOf(a,b)!='number' ) {
+    throw console.error();
+
+  }
 };
 
 export default sum;
